@@ -29,10 +29,10 @@ s3.secretKey={secretkey}
 ```
 VITE_KAKAO_LOGIN_URL= https://kauth.kakao.com/oauth/authorize?client_id=5d8d490d89bd94350ede865bf72b5f3e&redirect_uri=http://j9e105.p.ssafy.io/oauth/callback/kakao&response_type=code
 
-VITE_PUBLIC_REGION = ap-northeast-2
-VITE_PUBLIC_ACCESSKEY = AKIA5JWD3S4F2LOMOMU3
-VITE_PUBLIC_SECRETKEY = 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
-VITE_PUBLIC_BUCKET = taw-s3-bucket2
+VITE_PUBLIC_REGION = {s3 region}
+VITE_PUBLIC_ACCESSKEY = {s3 accesstokenkey}
+VITE_PUBLIC_SECRETKEY = {s3 secretkey}
+VITE_PUBLIC_BUCKET = {s3 bucketname}
 ```
 
 
