@@ -21,9 +21,9 @@ DB_URL=stg-yswa-kr-practice-db-master.mariadb.database.azure.com:3306
 DB_USERNAME=S09P22E105@stg-yswa-kr-practice-db-master.mariadb.database.azure.com
 DB_PASSWORD=jwyfWaxinj
 # s3
-bucket=taw-s3-bucket2
-s3.accessKey=AKIA5JWD3S4F2LOMOMU3
-s3.secretKey=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
+bucket={bucketname}
+s3.accessKey={token}
+s3.secretKey={secretkey}
 ```
 - .env(for React)
 ```
